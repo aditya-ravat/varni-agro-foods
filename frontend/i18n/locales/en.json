@@ -1,0 +1,103 @@
+{
+  "brand": "Varni Agro Foods",
+  "tagline": "Preserving Freshness, Powering Agriculture.",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "facilities": "Facilities",
+    "products": "Commodities",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact",
+    "track": "Track",
+    "getQuote": "Get a Quote",
+    "login": "Client Login"
+  },
+  "cta": {
+    "primary": "Get a Free Quote",
+    "secondary": "Talk to Sales",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "contactUs": "Contact Us",
+    "whatsapp": "WhatsApp Us"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Cold Chain · Warehousing · Logistics",
+      "title": "India's trusted cold-chain partner for fresh food and pharma",
+      "subtitle": "55,000+ MT of FSSAI-grade cold storage across Gujarat & Maharashtra. From potato to pharma, we keep your value cold and your business moving.",
+      "stats": {
+        "capacity": "MT capacity",
+        "facilities": "Facilities",
+        "uptime": "Cold-chain uptime",
+        "clients": "Clients served"
+      }
+    },
+    "usp": {
+      "title": "Why farmers, traders & FMCG brands choose Varni",
+      "items": [
+        { "title": "FSSAI & HACCP certified", "desc": "Every facility is audited annually for hygiene, traceability and food-safety compliance." },
+        { "title": "24×7 IoT monitoring", "desc": "Live temperature, humidity, door & power telemetry — alerts go straight to your phone." },
+        { "title": "GST-ready billing", "desc": "Per-bag, per-MT or seasonal pricing with transparent invoices and online payments." },
+        { "title": "Multi-temperature chambers", "desc": "Cold rooms, freezers, controlled-atmosphere and ripening — under one roof." }
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "End-to-end cold chain services",
+      "cta": "Explore services"
+    },
+    "facilities": {
+      "eyebrow": "Our network",
+      "title": "Strategically-located facilities",
+      "cta": "See all facilities"
+    },
+    "commodities": {
+      "eyebrow": "What we store",
+      "title": "Designed for every commodity",
+      "cta": "All commodities"
+    },
+    "testimonials": {
+      "eyebrow": "Voices from our clients",
+      "title": "Trusted across the value chain"
+    },
+    "cta": {
+      "title": "Need cold storage this season?",
+      "subtitle": "Get an indicative tariff in under 5 minutes.",
+      "button": "Request a Quote"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "services": "Services",
+    "facilities": "Facilities",
+    "support": "Support",
+    "legal": "Legal",
+    "newsletter": "Get cold-chain insights & seasonal advisories",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "address": "Registered Office, Morbi, Gujarat, India"
+  },
+  "form": {
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "company": "Company / Firm",
+    "city": "City",
+    "commodity": "Commodity",
+    "facility": "Preferred facility",
+    "qty": "Estimated quantity",
+    "qtyUnit": "Unit (MT / bags)",
+    "requiredFrom": "Required from",
+    "message": "Message",
+    "submit": "Submit",
+    "subscribe": "Email address",
+    "submitting": "Submitting…",
+    "success": "Thank you. Our team will contact you shortly.",
+    "error": "Something went wrong. Please try again."
+  }
+}

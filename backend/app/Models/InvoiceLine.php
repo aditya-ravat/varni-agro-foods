@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class InvoiceLine extends Model
+{
+    protected $fillable = [
+        'invoice_id', 'lot_id', 'description', 'hsn_code', 'qty', 'rate', 'amount',
+        'cgst_pct', 'sgst_pct', 'igst_pct',
+        'cgst_amount', 'sgst_amount', 'igst_amount', 'total',
+    ];
+
+    protected $casts = [
+        'qty' => 'decimal:2', 'rate' => 'decimal:2', 'amount' => 'decimal:2',
+        'cgst_pct' => 'decimal:2', 'sgst_pct' => 'decimal:2', 'igst_pct' => 'decimal:2',
+        'cgst_amount' => 'decimal:2', 'sgst_amount' => 'decimal:2', 'igst_amount' => 'decimal:2',
+        'total' => 'decimal:2',
+    ];
+
+    public function invoice() { return $this->belongsTo(Invoice::class); }
+    public function lot() { return $this->belongsTo(Lot::class); }
+}

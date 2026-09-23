@@ -1,0 +1,35 @@
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/.env.backup
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/public/storage
+backend/public/hot
+backend/database/database.sqlite
+
+# Nuxt
+frontend/.nuxt
+frontend/.output
+frontend/dist
+frontend/node_modules
+frontend/.env
+frontend/.data
+
+# editor
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+# composer
+composer.phar
